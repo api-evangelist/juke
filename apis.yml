@@ -1,4 +1,16 @@
 aid: juke
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/juke.png
 name: Juke
 description: 'Juke is a company surfaced as a portfolio company of multicoin-capital and added to the
   API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
@@ -10,9 +22,22 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dead-domain
+x-status-detail: 'juke.io resolves but is a parked / for-sale GoDaddy page (root serves a JS
+  redirect to /lander that unwinds to forsale.godaddy.com/forsale/juke.io); api./docs./developer./
+  app.juke.io all fail TLS (no host). No verifiable developer, API, docs, or GitHub surface was
+  found. "Juke" as a distinct Multicoin Capital portfolio company could not be confirmed in public
+  sources (juke.io is parked; other "JUKE" entities found are unrelated music/NFT projects).
+  Re-probed 2026-07-20: dead-domain status unchanged. No artifacts enriched — no fabrication.'
+x-enriched: '2026-07-19'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto Web3
